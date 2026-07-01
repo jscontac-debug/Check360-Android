@@ -1,10 +1,10 @@
 {
-  "app": "Check360",
-  "version": "2.0.1",
-  "versionCode": 201,
+  "app": "CoviTools",
+  "version": "2.0.2",
+  "versionCode": 202,
   "mandatory": false,
   "title": "Nueva versión disponible",
-  "message": "Versión 2.0.1\n• Nuevo Panel de trabajo\n• Accesos a Tickets e Incidencias\n• Mejoras en navegación",
-  "apkUrl": "https://github.com/jscontac-debug/Check360-Android/releases/download/v2.0.1/app-debug.apk",
+  "message": "CoviTools 2.0.2\n• Cambio de nombre\n• Recuperado Check180\n• Tickets e Incidencias\n• Mejoras de navegación",
+  "apkUrl": "https://github.com/jscontac-debug/Check360-Android/releases/download/v2.0.2/app-debug.apk",
   "releaseDate": "2026-07-01"
 }
