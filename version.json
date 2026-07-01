@@ -1,0 +1,10 @@
+{
+  "app": "Check360",
+  "version": "1.5.0",
+  "versionCode": 150,
+  "mandatory": false,
+  "title": "Nueva versión disponible",
+  "message": "Primera versión Android.\n- Historial\n- Nuevo diseño\n- Corrección de errores",
+  "apkUrl": "https://github.com/jscontac-debug/Check360-Android/releases/download/v1.5.0/app-debug.apk",
+  "releaseDate": "2026-07-01"
+}
