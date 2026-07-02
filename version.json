@@ -1,10 +1,10 @@
 {
   "app": "CoviTools",
-  "version": "2.1.0",
-  "versionCode": 210,
+  "version": "2.1.1",
+  "versionCode": 211,
   "mandatory": false,
-  "title": "Nueva versión disponible",
-  "message": "CoviTools 2.1.0\n\n• Actualizador mejorado\n• Corrección del problema de caché\n• Preparada para versión Release\n• Mejoras de seguridad y rendimiento",
-  "apkUrl": "https://github.com/jscontac-debug/Check360-Android/releases/download/v2.1.0/app-debug.apk",
+  "title": "Actualización disponible",
+  "message": "CoviTools 2.1.1\n\n• Nuevo sistema de comprobación de actualizaciones\n• Eliminada la dependencia de GitHub Pages\n• Mejoras de estabilidad y fiabilidad",
+  "apkUrl": "https://github.com/jscontac-debug/Check360-Android/releases/download/v2.1.1/app-debug.apk",
   "releaseDate": "2026-07-02"
 }
