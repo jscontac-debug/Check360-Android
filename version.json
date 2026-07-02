@@ -3,7 +3,7 @@
   "version": "2.2.0",
   "versionCode": 220,
   "mandatory": false,
-  "title": "Nueva versión disponible",
+  "title": "Actualización disponible",
   "message": "CoviTools 2.2.0\n\n• Nuevo sistema de comprobación de actualizaciones\n• Preparado para Apps Script\n• Base preparada para Microsoft 365\n• Mejoras de estabilidad",
   "apkUrl": "https://github.com/jscontac-debug/Check360-Android/releases/download/v2.2.0/app-debug.apk",
   "releaseDate": "2026-07-02"
