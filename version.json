@@ -1,10 +1,10 @@
 {
   "app": "CoviTools",
-  "version": "2.1.1",
-  "versionCode": 211,
+  "version": "2.1.2",
+  "versionCode": 212,
   "mandatory": false,
-  "title": "CoviTools está actualizado",
-  "message": "Estás usando la última versión estable de CoviTools.",
+  "title": "Actualización disponible",
+  "message": "Esto es una prueba del sistema de actualización. Si ves este mensaje y puedes descargar el APK correctamente, todo funciona bien.",
   "apkUrl": "https://github.com/jscontac-debug/Check360-Android/releases/download/v2.1.1/app-debug.apk",
-  "releaseDate": "2026-07-02"
+  "releaseDate": "2026-07-04"
 }
