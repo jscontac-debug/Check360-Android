@@ -1,8 +1,8 @@
 {
-  "version": "2.2.2",
-  "versionCode": 222,
-  "nombre": "CoviTools v2.2.2",
+  "version": "2.2.4",
+  "versionCode": 224,
+  "nombre": "CoviTools v2.2.4",
   "fecha": "2026-07-05",
-  "descripcion": "Corrección visual de Check180 y ajuste de cámara en foto resumen.",
-  "apk": "https://github.com/jscontac-debug/Check360-Android/releases/download/v2.2.2/app-debug.apk"
+  "descripcion": "Estabilización definitiva del sistema de actualizaciones.",
+  "apk": "https://github.com/jscontac-debug/Check360-Android/releases/download/v2.2.4/app-debug.apk"
 }
