@@ -1,8 +1,8 @@
 {
-  "version": "2.2.5",
-  "versionCode": 225,
-  "nombre": "CoviTools v2.2.5",
+  "version": "2.2.6",
+  "versionCode": 226,
+  "nombre": "CoviTools v2.2.6",
   "fecha": "2026-07-05",
-  "descripcion": "Correcciones de estabilidad, Check180 y sistema de actualización.",
-  "apk": "https://github.com/jscontac-debug/Check360-Android/releases/download/v2.2.5/app-debug.apk"
+  "descripcion": "Corrección definitiva de la apertura de Check180, mejora de estabilidad y preparación para la integración con Google Sheets.",
+  "apk": "https://github.com/jscontac-debug/Check360-Android/releases/download/v2.2.6/app-debug.apk"
 }
