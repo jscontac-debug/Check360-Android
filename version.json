@@ -1,10 +1,8 @@
 {
-  "app": "CoviTools",
-  "version": "2.1.2",
-  "versionCode": 212,
-  "mandatory": false,
-  "title": "Actualización disponible",
-  "message": "Esto es una prueba del sistema de actualización. Si ves este mensaje y puedes descargar el APK correctamente, todo funciona bien.",
-  "apkUrl": "https://github.com/jscontac-debug/Check360-Android/releases/download/v2.1.1/app-debug.apk",
-  "releaseDate": "2026-07-04"
+  "version": "2.2.1",
+  "versionCode": 221,
+  "nombre": "CoviTools v2.2.1",
+  "fecha": "2026-07-05",
+  "descripcion": "Activación de Check180, diferenciación de PDF, eliminación de textos del encabezado y mejoras visuales.",
+  "apk": "https://github.com/jscontac-debug/Check360-Android/releases/download/v2.2.1/app-release.apk"
 }
