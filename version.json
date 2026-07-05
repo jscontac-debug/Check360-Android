@@ -1,8 +1,8 @@
 {
-  "version": "2.2.6",
-  "versionCode": 226,
-  "nombre": "CoviTools v2.2.6",
+  "version": "2.3.0",
+  "versionCode": 230,
+  "nombre": "CoviTools v2.3.0",
   "fecha": "2026-07-05",
-  "descripcion": "Corrección definitiva de la apertura de Check180, mejora de estabilidad y preparación para la integración con Google Sheets.",
-  "apk": "https://github.com/jscontac-debug/Check360-Android/releases/download/v2.2.6/app-debug.apk"
+  "descripcion": "Integración del módulo Tickets dentro de CoviTools.",
+  "apk": "https://github.com/jscontac-debug/Check360-Android/releases/download/v2.3.0/app-debug.apk"
 }
