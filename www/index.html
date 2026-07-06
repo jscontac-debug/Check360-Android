@@ -38,8 +38,13 @@
       "style.css?v=" + version;
 
     const script = document.createElement("script");
-    script.src = "script.js?v=" + version;
-    document.body.appendChild(script);
+   script.src = "script.js?v=" + version;
+script.onload = function () {
+  const updates = document.createElement("script");
+  updates.src = "modules/updates/updates.js?v=" + version;
+  document.body.appendChild(updates);
+};
+document.body.appendChild(script);
   </script>
 
 </body>
