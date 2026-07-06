@@ -1,0 +1,46 @@
+CoviTools v2.2.0 - Actualizador
+
+La app consulta ahora tres fuentes, en este orden:
+
+1) Apps Script:
+   URL_APPS_SCRIPT + ?accion=version
+
+2) GitHub API:
+   https://api.github.com/repos/jscontac-debug/Check360-Android/contents/version.json?ref=main
+
+3) GitHub RAW:
+   https://raw.githubusercontent.com/jscontac-debug/Check360-Android/main/version.json
+
+De momento puedes seguir usando GitHub version.json como hasta ahora. Si Apps Script aún no tiene accion=version, la app pasa automáticamente a GitHub API.
+
+Cuando quieras activar Apps Script como fuente principal, añade a tu doGet(e) algo como esto:
+
+function doGet(e) {
+  const accion = e && e.parameter && e.parameter.accion;
+
+  if (accion === 'version') {
+    return ContentService
+      .createTextOutput(JSON.stringify({
+        app: 'CoviTools',
+        version: '2.2.0',
+        versionCode: 220,
+        mandatory: false,
+        title: 'Actualización disponible',
+        message: 'CoviTools 2.2.0\n\n• Actualizador robusto\n• Fuente principal Apps Script\n• Respaldo GitHub API\n• Preparado para futura integración Microsoft',
+        apkUrl: 'https://github.com/jscontac-debug/Check360-Android/releases/download/v2.2.0/app-debug.apk',
+        releaseDate: '2026-07-02'
+      }))
+      .setMimeType(ContentService.MimeType.JSON);
+  }
+
+  return ContentService
+    .createTextOutput(JSON.stringify({ ok: true, mensaje: 'CoviTools Apps Script activo' }))
+    .setMimeType(ContentService.MimeType.JSON);
+}
+
+IMPORTANTE:
+Si tu Apps Script ya tiene un doGet(e), no dupliques la función. Integra únicamente el bloque:
+
+if (accion === 'version') { ... }
+
+al principio de tu doGet actual.

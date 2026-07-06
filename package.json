@@ -1,0 +1,25 @@
+{
+  "name": "check360-coviran-android",
+  "version": "2.2.0",
+  "description": "CoviTools - app Android con Capacitor para modelo tienda Covirán",
+  "main": "index.html",
+  "scripts": {
+    "sync": "npx cap sync android",
+    "open": "npx cap open android",
+    "build:web": "echo \"Web estatica lista en www\"",
+    "android:copy": "npx cap copy android",
+    "android:sync": "npx cap sync android",
+    "android:debug": "cd android && gradlew assembleDebug",
+    "android:release": "cd android && gradlew assembleRelease",
+    "check:version": "node scripts/check-version.js"
+  },
+  "dependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/camera": "latest",
+    "@capacitor/browser": "latest"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest"
+  }
+}

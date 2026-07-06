@@ -1,0 +1,14 @@
+{
+  "appId": "es.coviran.check360",
+  "appName": "CoviTools",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "backgroundColor": "#006B3F"
+    }
+  }
+}

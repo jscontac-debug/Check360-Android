@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CoviTools</title>
+
+  <meta name="theme-color" content="#00843D">
+  <meta name="description" content="CoviTools">
+
+  <link rel="manifest" href="manifest.json">
+
+  <link id="css-versionado" rel="stylesheet" href="">
+
+  <link rel="icon" type="image/png" sizes="192x192" href="img/icon-192.png">
+  <link rel="apple-touch-icon" href="img/icon-192.png">
+</head>
+
+<body>
+
+  <main class="app">
+    <header class="header">
+      <h1>CoviTools</h1>
+    </header>
+
+    <section id="formulario" class="card"></section>
+
+    <section id="resultado" class="card oculto"></section>
+  </main>
+
+  <script>
+    const version =
+      new URLSearchParams(window.location.search).get("v") ||
+      Date.now();
+
+    document.getElementById("css-versionado").href =
+      "style.css?v=" + version;
+
+    const script = document.createElement("script");
+    script.src = "script.js?v=" + version;
+    document.body.appendChild(script);
+  </script>
+
+</body>
+</html>
