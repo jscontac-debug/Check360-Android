@@ -30,22 +30,28 @@
   </main>
 
   <script>
-    const version =
-      new URLSearchParams(window.location.search).get("v") ||
-      Date.now();
+  const version =
+    new URLSearchParams(window.location.search).get("v") ||
+    Date.now();
 
-    document.getElementById("css-versionado").href =
-      "style.css?v=" + version;
+  document.getElementById("css-versionado").href =
+    "style.css?v=" + version;
 
+  const checkStorage = document.createElement("script");
+  checkStorage.src = "modules/check/checkStorage.js?v=" + version;
+
+  checkStorage.onload = function () {
     const script = document.createElement("script");
-   script.src = "script.js?v=" + version;
-script.onload = function () {
-  const updates = document.createElement("script");
-  updates.src = "modules/updates/updates.js?v=" + version;
-  document.body.appendChild(updates);
-};
-document.body.appendChild(script);
-  </script>
+    script.src = "script.js?v=" + version;
 
-</body>
-</html>
+    script.onload = function () {
+      const updates = document.createElement("script");
+      updates.src = "modules/updates/updates.js?v=" + version;
+      document.body.appendChild(updates);
+    };
+
+    document.body.appendChild(script);
+  };
+
+  document.body.appendChild(checkStorage);
+</script>
